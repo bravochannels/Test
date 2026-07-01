@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="star">
+    <meta name="description" content="This is the contact page for my website.">
+    <title>Contact Me</title>
+    <link rel="icon" href="You.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+<body>
+
+<header>
+    
+<nav aria-label="Header Navigation">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+</header>
+
+<hr>
+
+<article id="contact">
+    <h1><strong>Contact Me</strong></h1>
+    <p>If you have any questions or would like to get in touch, please feel free to reach out using the information below:</p>
+    <section>
+    <form action="https://example.com/contact" method="get">
+        <fieldset>
+            <legend>Contact Form</legend>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Jane" autocomplete="name" required>
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Doe" autocomplete="family-name" required>
+        <label for gender>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="120" placeholder="Your age" required>
+        <label for="ethinicity" id="ethinicity">Ethinicity:</label>
+        <input type="text" id="ethinicity" name="ethinicity" list="ethinicity-options" placeholder="Your ethinicity" required>
+        <datalist id="ethinicity-options">
+            <option value="Asian">
+            <option value="Black or African American">
+            <option value="Hispanic or Latino">
+            <option value="Native American or Alaska Native">
+            <option value="Native Hawaiian or Other Pacific Islander">
+            <option value="White">
+            <option value="Other">
+        </datalist>
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <optgroup label="North America">
+                <option value="usa">United States</option>
+                <option value="canada">Canada</option>
+            </optgroup>
+            <optgroup label="Europe">
+                <option value="uk">United Kingdom</option>
+                <option value="germany">Germany</option>
+            </optgroup>
+            <optgroup label="Oceania">
+                <option value="australia">Australia</option>
+                <option value="new zealand">New Zealand</option>
+            </optgroup>
+            <optgroup label="Africa">
+                <option value="tanzania">Tanzania</option>
+                <option value="kenya">Kenya</option>
+            </optgroup>
+            <optgroup label="Asia">
+                <option value="japan">Japan</option>
+            </optgroup>
+            <option value="other">Other</option>
+        </select>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email" autocomplete="email" required>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Your phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" autocomplete="tel" required>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject" autocomplete="off" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your message" cols="40" rows="20" autocomplete="off" required></textarea>
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+        </fieldset>
+        </form>
+        </section>
+ </article>
+<footer>
+    <section>
+        <ul>
+            <li><a href="mailto:star@example.com">Email: star@example.com</a></li>
+            <li><a href="tel:(123) 456-7890">Phone: (123) 456-7890</a></li>
+        </ul>
+    </section>
+
+<hr>
+&copy; 2026 <a href="about.html">Star</a>. All rights reserved.
+</footer>
+</body>
+</html>
