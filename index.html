@@ -5,6 +5,7 @@
     <meta name ="author" content="star">
     <meta name ="description" content="This is a simple HTML page for my website.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Web Development, Personal Website">
     <title>My Website</title>
     <link rel="icon" href="You.png" type="image/x-icon">
     <link rel="stylesheet" href="main.css" type="text/css">  
@@ -14,7 +15,7 @@
 <header>
     
 <nav aria-label="Main Navigation">
-    <ul>
+    <ul class="nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -24,10 +25,10 @@
 </header>
 <Main>
      <article id="about">
-    <h1><strong>Welcome to My Website</strong></h1>
+    <h1><strong>Welcome to My <span class="two">Website</span></strong></h1>
      <hr>
      <h2><strong>About Me</strong></h2>
-     <p>Hello! My name is Star, and this is my personal website. I enjoy coding, web development, and sharing my projects with the world. <em>Feel free to explore and learn more about me!</em></p>
+     <p class="one">Hello! My name is Star, and this is my personal website. I enjoy coding, web development, and sharing my projects with the world. <em>Feel free to explore and learn more about me!</em></p>
      
      <section>
      <figure>
@@ -138,14 +139,14 @@
     </Main>
     <footer>
     <nav aria-label="Footer Navigation">
-        <ul>
+        <ul class="nav">
             <li> <a href="#about"> About</a></li>
             <li> <a href="#hobbies"> Hobbies</a></li>
             <li> <a href="#contact"> Contact</a></li>
         </ul>
         </nav>
 
-    <a href="#top">Back to Top</a>
+    <a href="#top">Back to Top</a> 
 
      <hr>
      &copy; 2026 <a href="about.html">Star</a>. All rights reserved.
